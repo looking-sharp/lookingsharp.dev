@@ -97,18 +97,20 @@ footer {
 }
 
 .resume {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
 }
-
-
+  
 .resume iframe {
-  position: relative;
-  width: 100%;
-  height: 90vh;
-  border: none;
+    display: flex;
+    width: 100%;
+    max-width: 800px; 
+    height: 90vh;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
