@@ -96,10 +96,14 @@ footer {
     color: #666;
 }
 
-#resume {
+.resume {
     align-self: center;
 }
 
-#resume iframe {
-    size: 70%;
+
+.resume iframe {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  border: none;
 }
