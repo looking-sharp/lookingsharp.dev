@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Average Janitorial Job-0.1";
 const contentToCache = [
     "Build/AJJ-webGL-update2.loader.js",
-    "Build/AJJ-webGL-update2.framework.js.gz",
-    "Build/AJJ-webGL-update2.data.gz",
-    "Build/AJJ-webGL-update2.wasm.gz",
+    "Build/AJJ-webGL-update2.framework.js",
+    "Build/AJJ-webGL-update2.data",
+    "Build/AJJ-webGL-update2.wasm",
     "TemplateData/style.css"
 
 ];
