@@ -85,7 +85,7 @@ header {
       opacity: 1;
       background-color: rgba(248, 248, 248, 0.9);
     }
-    
+
     .itch-container {
         flex-direction: column;
     }
@@ -98,8 +98,12 @@ header {
     .itch-sidebar {
         margin-top: 1rem;
     }
+
+    .itch-game-area {
+        min-width: none;
+    }
+
 }
-  
 
 footer {
     margin-top: 2em;
@@ -155,9 +159,10 @@ footer {
 }
   
 .itch-game-area {
-    flex: 2;
+    flex: 1;
     padding: 1rem;
     border-radius: 8px;
+    min-width: 500px;
 }
   
 .itch-game-area iframe {
@@ -168,7 +173,7 @@ footer {
 }
 
 .itch-sidebar {
-    flex: 1;
+    flex: 2;
     padding: 1rem;
     border-radius: 8px;
 }
