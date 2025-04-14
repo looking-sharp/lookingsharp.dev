@@ -173,7 +173,7 @@ footer {
 }
 
 .itch-sidebar {
-    flex: 2;
+    flex: 0;
     padding: 1rem;
     border-radius: 8px;
 }
