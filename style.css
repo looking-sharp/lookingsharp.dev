@@ -155,6 +155,7 @@ footer {
     flex-wrap: wrap;
     max-width: 1200px;
     /*margin: 2rem auto;*/
+    margin: 0;
     gap: 2rem;
     padding: 2rem 2rem;
 }
