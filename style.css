@@ -247,10 +247,10 @@ footer {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0); /* invisible by default */
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
     border-radius: 4px;
 }
 
 .project-hyperlink a:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.3); /* darkens on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* darkens on hover */
 }
