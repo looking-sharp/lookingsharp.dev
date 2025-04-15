@@ -246,11 +246,28 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0); /* invisible by default */
-    transition: background-color 0.1s ease;
+    background-color: rgba(0, 0, 0, 0); 
+    opacity: 0;
+    transition: opacity 0.1s ease;
     border-radius: 4px;
+    pointer-events: none; 
 }
 
 .project-hyperlink a:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.1); /* darkens on hover */
+    opacity: 1;
+}
+
+.project-hyperlink a:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-hyperlink {
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    width: 15rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
