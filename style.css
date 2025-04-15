@@ -111,6 +111,7 @@ footer {
     border-top: 1px solid #ccc;
     font-size: 0.9em;
     color: #666;
+    padding-left: 2rem;
 }
 
 .resume {
@@ -153,9 +154,9 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1200px;
-    margin: 2rem auto;
+    /*margin: 2rem auto;*/
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
 }
   
 .itch-game-area {
@@ -197,6 +198,8 @@ footer {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
+    transition: ease;
+    transition-duration: 100ms;
 }
   
 .itch-button:hover {
