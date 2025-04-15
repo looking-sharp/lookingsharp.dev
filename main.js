@@ -8,3 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
       menuIcon.innerHTML = isOpen ? "&times;" : "&#9776;";
     });
 });
+
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
+
+async function handleRequest(request) {
+  const url = new URL(request.url)
+  const response = await fetch(request)
+  if (url.pathname.endsWith('.wasm')) {
+    return new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers: {
+        ...Object.fromEntries(response.headers),
+        'Content-Type': 'application/wasm'
+      }
+    })
+  }
+  return response
+}
