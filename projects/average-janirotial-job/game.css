@@ -2,6 +2,14 @@ header {
     border-bottom: 2px solid #299629;
 }
 
+.nav-links a:hover {
+    color: #299629;
+}
+
+main {
+    background-color: #299629;
+}
+
 footer {
     margin-top: 0;
 }
