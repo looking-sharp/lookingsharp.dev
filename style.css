@@ -224,8 +224,33 @@ footer {
     height: auto;    
 }
 
-.project-hyperlink a img {
+
+.project-hyperlink .image-wrapper {
+    position: relative;
+    display: inline-block;
     max-width: 300px;
     width: 15rem;
     border-radius: 4px;
+    overflow: hidden;
+}
+
+.project-hyperlink img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+.project-hyperlink .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0); /* invisible by default */
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.project-hyperlink a:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.3); /* darkens on hover */
 }
