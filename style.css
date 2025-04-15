@@ -223,3 +223,9 @@ footer {
     max-width: 100%;
     height: auto;    
 }
+
+.project-hyperlink a img {
+    max-width: 300px;
+    width: 15rem;
+    border-radius: 4px;
+}
