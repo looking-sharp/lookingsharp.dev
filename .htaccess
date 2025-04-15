@@ -7,3 +7,5 @@ RewriteRule ^ /%1 [NC,L,R]
 # Internally rewrite clean URLs to .html files
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+AddType application/wasm .wasm
