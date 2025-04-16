@@ -22,6 +22,9 @@ footer {
 
 .itch-game-area iframe {
     background-image: rgba(99, 178, 73, 0.75);
+    height: 167px;
+    margin-top: 167px;
+    margin-bottom: 167px;
 }
 
 .itch-game-area {
