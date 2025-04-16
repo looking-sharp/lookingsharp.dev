@@ -205,6 +205,15 @@ footer {
 .itch-button:hover {
     background: #e04c4c;
 }
+
+.itch-header {
+    padding: 0;
+}
+
+.itch-header img {
+    max-width: 100%;
+}
+
 .screenshots {
     padding: 3rem;
 }
