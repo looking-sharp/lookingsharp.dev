@@ -26,6 +26,12 @@ footer {
     margin-top: 10px;
 }
 
+.itch-game-area h1 {
+    color:#299629;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .itch-game-area {
     background-color: rgba(99, 178, 73, 0.75);
 }
