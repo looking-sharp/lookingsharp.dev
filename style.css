@@ -97,10 +97,13 @@ header {
 
     .itch-sidebar {
         margin-top: 1rem;
+        margin:auto;
+        
     }
 
     .itch-game-area {
         min-width: none;
+        flex-basis: none;
     }
 
 }
@@ -150,7 +153,8 @@ footer {
 }
   
 .itch-container {
-    display: flex;
+    display:flex;
+    flex:1;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -160,10 +164,10 @@ footer {
 }
   
 .itch-game-area {
-    flex: 1;
+    flex: 1 0 500px;
     padding: 1rem;
     border-radius: 8px;
-    min-width: 500px;
+    /*min-width: 500px;*/
 }
   
 .itch-game-area iframe {
@@ -174,9 +178,11 @@ footer {
 }
 
 .itch-sidebar {
-    flex: 0;
+    flex: 1;
     padding: 1rem;
     border-radius: 8px;
+    margin:auto;
+    flex-wrap: wrap;
 }
   
 .itch-sidebar h2,
