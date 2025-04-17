@@ -36,3 +36,7 @@ footer {
 .itch-button:hover {
     background: #299629;
 }
+
+.itch-game-area iframe {
+    height: 167px;
+}
