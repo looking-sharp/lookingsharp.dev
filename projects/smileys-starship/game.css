@@ -1,0 +1,49 @@
+header {
+    border-bottom: 2px solid #299629;
+}
+
+.nav-links a:hover {
+    color: #299629;
+}
+
+main {
+    background-color: #646464;
+}
+
+footer {
+    margin-top: 0;
+}
+
+.itch-container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(/images/SS/SS-BG.jpg);
+    background-color: #646464;
+}
+
+.itch-game-area iframe {
+    background-image: rgba(99, 178, 73, 0.75);
+    height: 167px;
+    margin-top: 10px;
+}
+
+.itch-game-area h1 {
+    color:black;
+    font-weight: bold;
+}
+
+.itch-game-area {
+    background-color: rgba(99, 178, 73, 0.75);
+}
+
+.itch-sidebar {
+    background-color: rgba(99, 178, 73, 0.75);
+}
+
+.itch-button {
+    background: #4af64a;
+    color: rgb(0, 0, 0);
+}
+
+.itch-button:hover {
+    background: #299629;
+}
