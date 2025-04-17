@@ -49,7 +49,7 @@ footer {
 }
 
 .itch-container p {
-    color:rgb(170, 170, 170);
+    color:#cccccc
 }
 
 .itch-container h1 {
@@ -57,9 +57,9 @@ footer {
 }
 
 .itch-container h2 {
-    color:rgb(207, 207, 207);
+    color:rgb(237, 237, 237);
 }
 
 .itch-container li {
-    color:rgb(170, 170, 170);
+    color:#cccccc;
 }
