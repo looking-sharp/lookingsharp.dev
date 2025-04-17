@@ -18,6 +18,9 @@ footer {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(/images/TTT/TTT-BG.jpg);
     background-color: #303030;
+    background-size: cover;         
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .itch-game-area iframe {
