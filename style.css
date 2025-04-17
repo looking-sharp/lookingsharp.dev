@@ -182,6 +182,8 @@ footer {
     padding: 1rem;
     border-radius: 8px;
     margin:auto;
+    margin-top:0;
+    margin-bottom:0;
     flex-wrap: wrap;
 }
   
