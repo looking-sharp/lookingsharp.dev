@@ -20,17 +20,6 @@ footer {
     background-color: #2ece2b;
 }
 
-.itch-game-area iframe {
-    background-image: rgba(99, 178, 73, 0.75);
-    height: 167px;
-    margin-top: 10px;
-}
-
-.itch-game-area h1 {
-    color:black;
-    font-weight: bold;
-}
-
 .itch-game-area {
     background-color: rgba(99, 178, 73, 0.75);
 }
