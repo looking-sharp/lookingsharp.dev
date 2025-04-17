@@ -1,13 +1,13 @@
 header {
-    border-bottom: 2px solid #299629;
+    border-bottom: 2px solid #af0b0b;
 }
 
 .nav-links a:hover {
-    color: #299629;
+    color: #af0b0b;
 }
 
 main {
-    background-color: #299629;
+    background-color: #303030;
 }
 
 footer {
@@ -16,8 +16,8 @@ footer {
 
 .itch-container {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(/images/AJJ/AJJ-BG.jpg);
-    background-color: #2ece2b;
+    background-image: url(/images/TTT/TTT-BG.jpg);
+    background-color: #303030;
 }
 
 .itch-game-area iframe {
@@ -32,18 +32,18 @@ footer {
 }
 
 .itch-game-area {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(216, 50, 50, 0.75);
 }
 
 .itch-sidebar {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(244, 230, 71, 0.75);
 }
 
 .itch-button {
-    background: #4af64a;
+    background: #e64747;
     color: rgb(0, 0, 0);
 }
 
 .itch-button:hover {
-    background: #299629;
+    background: #b12b2b;
 }
