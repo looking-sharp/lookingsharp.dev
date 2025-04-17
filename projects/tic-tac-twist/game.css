@@ -2,8 +2,12 @@ header {
     border-bottom: 2px solid #af0b0b;
 }
 
-.nav-links a:hover {
+.nav-links a:hover:nth-child(odd) {
     color: #af0b0b;
+}
+
+.nav-links a:hover:nth-child(even) {
+    color: #a5a520;
 }
 
 main {
