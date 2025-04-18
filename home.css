@@ -17,6 +17,7 @@
 }
 
 .itch-sidebar img {
-    width: 10rem;
+    width: 15rem;
+    padding: 10px;
     border-radius: 4px;
 }
