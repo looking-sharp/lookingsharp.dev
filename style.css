@@ -293,3 +293,11 @@ footer {
     font-size: large;
     font-weight: bold;
 }
+
+.class-holder {
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    width: 20rem;
+    cursor: pointer;
+}
