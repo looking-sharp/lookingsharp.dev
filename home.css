@@ -1,25 +1,3 @@
-header {
-    border-bottom: 2px solid #299629;
-}
-
-.nav-links a:hover {
-    color: #299629;
-}
-
-main {
-    background-color: #299629;
-}
-
-footer {
-    margin-top: 0;
-}
-
-.itch-container {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(/images/AJJ/AJJ-BG.jpg);
-    background-color: #2ece2b;
-}
-
 .itch-game-area iframe {
     background-image: rgba(99, 178, 73, 0.75);
     height: 167px;
