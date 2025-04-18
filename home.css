@@ -1,6 +1,5 @@
 .itch-game-area iframe {
-    background-image: rgba(99, 178, 73, 0.75);
-    height: 167px;
+    background-image: rgba(240, 240, 240, 0.75);
     margin-top: 10px;
 }
 
@@ -10,18 +9,9 @@
 }
 
 .itch-game-area {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(240, 240, 240, 0.75);
 }
 
 .itch-sidebar {
-    background-color: rgba(99, 178, 73, 0.75);
-}
-
-.itch-button {
-    background: #4af64a;
-    color: rgb(0, 0, 0);
-}
-
-.itch-button:hover {
-    background: #299629;
+    background-color: rgba(240, 240, 240, 0.75);
 }
