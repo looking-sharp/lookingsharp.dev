@@ -15,3 +15,8 @@
 .itch-sidebar {
     background-color: rgba(240, 240, 240, 0.75);
 }
+
+.itch-sidebar img {
+    width: 10rem;
+    border-radius: 4px;
+}
