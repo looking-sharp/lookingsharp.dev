@@ -168,6 +168,7 @@ footer {
     padding: 1rem;
     border-radius: 8px;
     /*min-width: 500px;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
   
 .itch-game-area iframe {
@@ -185,6 +186,7 @@ footer {
     margin-top:0;
     margin-bottom:0;
     flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
   
 .itch-sidebar h2,
