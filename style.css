@@ -317,6 +317,7 @@ main h1 {
 .class-holder {
     background-color: rgb(245, 245, 245);
     border-radius: 10px;
+    padding: 1rem 2rem;
 }
 
 .class-holder h3 {
