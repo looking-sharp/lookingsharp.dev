@@ -301,3 +301,31 @@ footer {
     width: 20rem;
     cursor: pointer;
 }
+
+main h1 {
+    margin-left:3rem;
+}
+
+.term {
+    margin:2rem;
+}
+
+.term h1 {
+    margin-left: 1rem;
+}
+
+.class-holder {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.class-holder h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.class-holder h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
