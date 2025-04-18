@@ -5,10 +5,6 @@ body {
     color: #222222;
 }
 
-main {
-    padding: 1rem 2rem;
-}
-
 /* Header layout */
 header {
     display: flex;
