@@ -333,3 +333,31 @@ main h1 {
     font-weight: bold;
     text-decoration: underline;
 }
+
+#footer-copyright {
+    align-items: left; 
+    justify-content: left; 
+    float:left; 
+    margin-right: 2em;
+}
+
+#footer-socials {
+    display: flex; 
+    flex-wrap:wrap; 
+    align-items: right; 
+    justify-content: right; 
+    float:right; 
+    margin-right: 2em;
+}
+
+#footer-social {
+    text-decoration:none;
+    border:0;
+    width:36px;
+    height:36px;
+    padding:2px;
+    margin:5px;
+    color:#e94011;
+    border-radius:50%;
+    background-color:#ffffff;
+}
