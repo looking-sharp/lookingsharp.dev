@@ -54,3 +54,7 @@ footer {
 .itch-button:hover {
     background: #b12b2b;
 }
+
+.footer-social:nth-child(odd){
+    color: #a5a520;
+}
