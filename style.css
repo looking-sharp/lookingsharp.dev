@@ -350,7 +350,7 @@ main h1 {
     margin-right: 2em;
 }
 
-#footer-social {
+.footer-social {
     text-decoration:none;
     border:0;
     width:36px;
