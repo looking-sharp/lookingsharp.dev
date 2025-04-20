@@ -418,6 +418,13 @@ main h1 {
         font-size: smaller;
     }
     
+    main h1 {
+        font-size: large;
+        margin: 1rem;
+        margin-bottom:2rem;
+        margin-top:2rem;
+    }
+    
     .itch-container {
         padding: 1rem;
         display: flex;
@@ -494,10 +501,17 @@ main h1 {
         padding-top: 20px;
         font-weight: bold;
     }
+    
+    .resume {
+        display:none;
+    }
 
     .resume-button {
-        display: inline-block;
+        display: block;
+        width:fit-content;
+        margin: 1rem auto 0 auto;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         background: #fa5c5c;
         color: white;
         padding: 0.5rem 1rem;
@@ -509,5 +523,41 @@ main h1 {
       
     .resume-button:hover {
         background: #e04c4c;
+    }
+    
+    .term {
+        margin:1rem;
+        padding:0;
+    }
+
+    .term h1 {
+        margin-left: 1rem;
+        font-size: large;
+    }
+
+    .class-holder {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        padding: 1rem 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    .class-holder {
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        width: 10rem;
+    }
+
+    .class-holder h3 {
+        text-wrap: wrap;
+        font-size: medium;
+    }
+
+    .class-holder h2 {
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: large;
     }
 }
