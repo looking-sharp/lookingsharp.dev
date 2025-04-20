@@ -369,6 +369,10 @@ main h1 {
     font-size: 0;
 }
 
+.resume-button {
+    display: none;
+}
+
 /* mobile */
 @media (max-width: 600px) {
     header img {
@@ -489,5 +493,21 @@ main h1 {
         text-align: center;
         padding-top: 20px;
         font-weight: bold;
+    }
+
+    .resume-button {
+        display: inline-block;
+        margin-top: 1rem;
+        background: #fa5c5c;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-decoration: none;
+        transition: ease;
+        transition-duration: 100ms;
+    }
+      
+    .resume-button:hover {
+        background: #e04c4c;
     }
 }
