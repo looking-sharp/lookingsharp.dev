@@ -406,8 +406,6 @@ main h1 {
     }
     
     .itch-sidebar {
-        display: flex;
-        flex: 1;
         padding:auto;
     }
     
@@ -422,12 +420,14 @@ main h1 {
     .itch-sidebar h2{
         font-size:large;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
     
     .itch-game-area p,
     .itch-sidebar p{
         font-size:small;
         margin:auto;
+        margin-bottom: 10px;
     }
     
     .itch-game-area ul,
@@ -437,4 +437,16 @@ main h1 {
         margin-top:10px;
     }
     
+    .screenshots{
+        width: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0 auto;
+    }
+    
+    .itch-button {
+        display: none;
+    }
 }
