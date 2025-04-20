@@ -363,7 +363,10 @@ main h1 {
 }
 
 #button-no-mobile {
-    display: hidden;
+    color: transparent;
+    user-select: none;
+    padding: 0;
+    font-size: 0;
 }
 
 /* mobile */
@@ -471,6 +474,7 @@ main h1 {
     } 
     
     #button-no-mobile {
+        font-size: small;
         display: block;
         text-align: center;
         padding-top: 20px;
