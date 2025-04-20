@@ -472,6 +472,12 @@ main h1 {
         padding: 0;
     }
     
+    .itch-container img:not(.screenshots) {
+        display: flex;
+        margin: auto;
+        padding: 10px 0;  
+    }
+
     .itch-button {
         display: none;
     } 
