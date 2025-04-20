@@ -361,3 +361,80 @@ main h1 {
     border-radius:50%;
     background-color:#ffffff;
 }
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    header img {
+        width:150px;
+        height:auto;
+        font-size: small;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+        margin: 0.1rem; 
+    }
+    
+    .menu-toggle {
+        font-size: 1.3rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #333;
+    }
+    
+    #footer-socials {
+        display:flex;
+        flex-wrap:wrap; 
+        align-items: center; 
+        justify-content: center; 
+        float:right; 
+        margin-right: 1em;
+    }
+    
+    .itch-container {
+        padding: 1rem;
+    }
+    
+    .itch-description {
+        padding:0;
+    }
+    
+    .itch-game-area {
+        text-wrap: wrap;
+        flex: 1;
+        padding:auto;
+    }
+    
+    .itch-sidebar {
+        display: flex;
+        flex: 1;
+        padding:auto;
+    }
+    
+    .itch-game-area h1,
+    .itch-sidebar h1{
+        font-size:x-large;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    
+    .itch-game-area h2,
+    .itch-sidebar h2{
+        font-size:large;
+        margin-bottom: 10px;
+    }
+    
+    .itch-game-area p,
+    .itch-sidebar p{
+        font-size:small;
+        margin:auto;
+    }
+    
+    .itch-game-area ul,
+    .itch-sidebar ul{
+        font-size:small;
+        margin:auto;
+        margin-top:10px;
+    }
+    
+}
