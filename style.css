@@ -362,6 +362,10 @@ main h1 {
     background-color:#ffffff;
 }
 
+#button-no-mobile {
+    display: hidden;
+}
+
 /* mobile */
 @media (max-width: 600px) {
     header img {
@@ -465,4 +469,11 @@ main h1 {
     .itch-button {
         display: none;
     } 
+    
+    #button-no-mobile {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
 }
