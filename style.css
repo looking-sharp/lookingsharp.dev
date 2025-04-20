@@ -560,4 +560,10 @@ main h1 {
         text-decoration: underline;
         font-size: large;
     }
+
+    .project-hyperlink {
+        display:grid;
+        margin:auto;
+        margin-bottom: 3rem;
+    }
 }
