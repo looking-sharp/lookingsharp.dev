@@ -391,6 +391,22 @@ main h1 {
         margin-right: 1em;
     }
     
+    .footer-social {
+        border:0;
+        width:30px;
+        height:30px;
+        padding:2px;
+        margin:5px;
+    }
+    
+    #footer-copyright h3{
+        font-size: small;
+    }
+    
+    #footer-copyright p {
+        font-size: smaller;
+    }
+    
     .itch-container {
         padding: 1rem;
     }
@@ -448,5 +464,5 @@ main h1 {
     
     .itch-button {
         display: none;
-    }
+    } 
 }
