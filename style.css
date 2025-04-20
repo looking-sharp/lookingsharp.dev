@@ -475,6 +475,7 @@ main h1 {
     
     #button-no-mobile {
         font-size: small;
+        color: black;
         display: block;
         text-align: center;
         padding-top: 20px;
