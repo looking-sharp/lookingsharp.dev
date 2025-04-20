@@ -432,7 +432,6 @@ main h1 {
     
     .itch-sidebar {
         padding:auto;
-        
     }
     
     .itch-game-area h1,
@@ -469,7 +468,8 @@ main h1 {
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
-        margin: 0 auto;
+        margin: 30px auto;
+        padding: 0;
     }
     
     .itch-button {
