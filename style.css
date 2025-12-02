@@ -587,7 +587,7 @@ main h1 {
         display: block !important; 
     }
 
-    .image-wrapper img {
+    .image-wrapper {
         display: block !important;
         width: 100% !important;
         height: auto !important;
