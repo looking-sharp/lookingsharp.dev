@@ -35,10 +35,34 @@ async function handleRequest(request) {
   return response
 }
 
+
 function zoom(event) {
-    const img = event.target;
-    const src = img.src;
+  const imgSrc = event.target.src;
 
-    console.log("Zooming image:", src);
+  const overlay = document.createElement("div");
+  overlay.style.position = "fixed";
+  overlay.style.top = 0;
+  overlay.style.left = 0;
+  overlay.style.width = "100vw";
+  overlay.style.height = "100vh";
+  overlay.style.backgroundColor = "rgba(0,0,0,0.8)";
+  overlay.style.display = "flex";
+  overlay.style.justifyContent = "center";
+  overlay.style.alignItems = "center";
+  overlay.style.zIndex = 1000;
+  overlay.style.cursor = "zoom-out";
 
+  const zoomedImg = document.createElement("img");
+  zoomedImg.src = imgSrc;
+  zoomedImg.style.width = "100%"; 
+  zoomedImg.style.height = "auto"; 
+  zoomedImg.style.maxHeight = "100%";
+  zoomedImg.style.objectFit = "contain";
+
+  overlay.appendChild(zoomedImg);
+  document.body.appendChild(overlay);
+
+  overlay.addEventListener("click", () => {
+    document.body.removeChild(overlay);
+  });
 }
