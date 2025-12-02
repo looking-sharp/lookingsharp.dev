@@ -599,7 +599,7 @@ main h1 {
         display: block !important; 
     }
 
-    .image-wrapper {
+    .image-wrapper img {
         display: block !important;
         width: 100% !important;
         height: auto !important;
