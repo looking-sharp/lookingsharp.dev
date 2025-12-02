@@ -582,9 +582,9 @@ main h1 {
     }
 
     .projects-container {
-        display: inherit;
+        display: block !important;
     }
-    
+
     .image-wrapper img {
         display: block;
         width: 100%;
