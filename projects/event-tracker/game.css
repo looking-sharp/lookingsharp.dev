@@ -1,13 +1,13 @@
 header {
-    border-bottom: 2px solid #299629;
+    border-bottom: 2px solid #04AA6D;
 }
 
 .nav-links a:hover {
-    color: #299629;
+    color: #04AA6D;
 }
 
 main {
-    background-color: #299629;
+    background-color: white;
 }
 
 footer {
@@ -17,7 +17,10 @@ footer {
 .itch-container {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(/images/ET/ET-BG.jpg);
-    background-color: #2ece2b;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .itch-game-area {
