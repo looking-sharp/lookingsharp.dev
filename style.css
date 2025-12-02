@@ -584,13 +584,7 @@ main h1 {
     .projects-container {
         display: inherit;
     }
-
-    .image-wrapper {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        position: relative;
-    }
+    
     .image-wrapper img {
         display: block;
         width: 100%;
