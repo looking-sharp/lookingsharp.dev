@@ -573,26 +573,23 @@ main h1 {
         font-size: large;
     }
     
-     .projects-container {
+    .projects-container {
         display: flex !important;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 2rem;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 2rem !important;
     }
 
     .project-hyperlink {
-        display: block;
-        width: 240px;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        text-align: center;
+        width: 240px !important;
+        margin: 0 !important;
+        text-align: center !important;
+        display: block !important; 
     }
 
     .image-wrapper img {
-        display: block;
-        width: 100%;
-        height: auto;
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
     }
 }
