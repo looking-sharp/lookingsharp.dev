@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       menuIcon.innerHTML = isOpen ? "&times;" : "&#9776;";
     });
     
-    const zoomItems = document.querySelector(".zoomable")
+    const zoomItems = document.querySelectorAll(".zoomable")
 
     zoomItems.forEach(item => {
       item.addEventListener("click", zoom);
