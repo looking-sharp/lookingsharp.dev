@@ -2,10 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("menuToggle");
     const navLinks = document.getElementById("navLinks");
     const menuIcon = document.getElementById("menuIcon");
-  
+
     menuToggle.addEventListener("click", () => {
       const isOpen = navLinks.classList.toggle("open");
       menuIcon.innerHTML = isOpen ? "&times;" : "&#9776;";
+    });
+    
+    const zoomItems = document.querySelector(".zoomable")
+
+    zoomItems.forEach(item => {
+      item.addEventListener("click", zoom);
     });
 });
 
@@ -27,4 +33,12 @@ async function handleRequest(request) {
     })
   }
   return response
+}
+
+function zoom(event) {
+    const img = event.target;
+    const src = img.src;
+
+    console.log("Zooming image:", src);
+
 }
