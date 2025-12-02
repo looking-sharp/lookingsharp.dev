@@ -576,6 +576,7 @@ main h1 {
      .projects-container {
         display: flex !important;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         gap: 2rem;
     }
