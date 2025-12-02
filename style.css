@@ -578,6 +578,7 @@ main h1 {
         margin:auto;
         margin-bottom: 5rem;
         width: 240px;
+        text-align: center;
     }
 
     .projects-container {
