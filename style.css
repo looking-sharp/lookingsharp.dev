@@ -572,7 +572,7 @@ main h1 {
         text-decoration: underline;
         font-size: large;
     }
-
+    /*
     .project-hyperlink {
         display:block;
         margin:0 auto;
@@ -590,4 +590,5 @@ main h1 {
         width: 100%;
         height: auto;
     }
+        */
 }
