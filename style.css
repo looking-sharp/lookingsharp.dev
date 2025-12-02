@@ -580,7 +580,7 @@ main h1 {
     }
 
     .projects-container {
-        display: block;
-        margin: auto;
+        display: inline-block;
+        width: 100%;
     }
 }
