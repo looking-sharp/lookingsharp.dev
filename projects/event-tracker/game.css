@@ -24,20 +24,20 @@ footer {
 }
 
 .itch-game-area {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(161, 205, 189, 0.75);
 }
 
 .itch-sidebar {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(161, 205, 189, 0.75);
 }
 
 .itch-button {
-    background: #4af64a;
+    background: #00C87F;
     color: rgb(0, 0, 0);
 }
 
 .itch-button:hover {
-    background: #299629;
+    background: #04AA6D;
 }
 
 .itch-game-area iframe {
