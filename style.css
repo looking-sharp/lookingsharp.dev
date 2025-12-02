@@ -583,6 +583,7 @@ main h1 {
     .project-hyperlink {
         display: block;
         width: 240px;
+        margin: 0 auto;
         margin-bottom: 2rem;
         text-align: center;
     }
