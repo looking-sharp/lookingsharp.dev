@@ -381,6 +381,10 @@ main h1 {
     display: none;
 }
 
+.zoomable {
+    cursor: zoom-in;
+}
+
 /* mobile */
 @media (max-width: 600px) {
     header img {
