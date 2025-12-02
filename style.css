@@ -575,10 +575,10 @@ main h1 {
 
     .project-hyperlink {
         display:block;
-        margin:auto;
+        margin:0 auto;
         margin-bottom: 5rem;
         width: 240px;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     .projects-container {
