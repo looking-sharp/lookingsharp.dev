@@ -574,9 +574,9 @@ main h1 {
     }
 
     .project-hyperlink {
-        display:grid;
+        display:block;
         margin:auto;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     .projects-container {
