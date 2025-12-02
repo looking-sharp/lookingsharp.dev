@@ -200,7 +200,19 @@ footer {
     border-radius: 8px;
 }
   
-.itch-button, .itch-button-mobile-friendly {
+.itch-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #fa5c5c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: ease;
+    transition-duration: 100ms;
+}
+
+.itch-button-mobile-friendly {
     display: inline-block;
     margin-top: 1rem;
     background: #fa5c5c;

@@ -31,7 +31,12 @@ footer {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.itch-button, .itch-button-mobile-friendly {
+.itch-button {
+    background: #00C87F;
+    color: rgb(0, 0, 0);
+}
+
+.itch-button-mobile-friendly {
     background: #00C87F;
     color: rgb(0, 0, 0);
 }
