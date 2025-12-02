@@ -246,18 +246,20 @@ footer {
 
 .project-hyperlink .image-wrapper {
     position: relative;
-    display: inline-block;
+    display: grid;
     max-width: 300px;
     width: 15rem;
     border-radius: 4px;
     overflow: hidden;
+    height: 200px;
+    align-content: center;
 }
 
 .project-hyperlink img {
     width: 100%;
-    display: block;
     border-radius: 4px;
     transition: ease 0.3s;
+    align-self: center;
 }
 
 .project-hyperlink .overlay {
