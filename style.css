@@ -578,10 +578,10 @@ main h1 {
         margin:0 auto;
         margin-bottom: 5rem;
         width: 240px;
-        /*text-align: center;*/
+        text-align: center;
     }
 
     .projects-container {
-        display: block;
+        display: inherit;
     }
 }
