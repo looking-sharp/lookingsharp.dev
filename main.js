@@ -54,8 +54,7 @@ function zoom(event) {
 
   const zoomedImg = document.createElement("img");
   zoomedImg.src = imgSrc;
-  zoomedImg.style.width = "100%"; 
-  zoomedImg.style.height = "auto"; 
+  zoomedImg.style.maxWidth = "100%";
   zoomedImg.style.maxHeight = "100%";
   zoomedImg.style.objectFit = "contain";
 
