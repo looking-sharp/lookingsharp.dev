@@ -1,0 +1,3 @@
+[submodule "projects/HTML-Formatter"]
+	path = projects/HTML-Formatter
+	url = https://github.com/looking-sharp/HTML_Editor
