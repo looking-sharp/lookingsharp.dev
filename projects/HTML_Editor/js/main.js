@@ -87,7 +87,7 @@ function updatePreview() {
         <html>
         <head>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="css/hidden.css">
+            <link rel="stylesheet" href="/projects/HTML_Editor/css/hidden.css">
             <style>${cssCode}</style>
         </head>
         <body>
@@ -96,7 +96,7 @@ function updatePreview() {
             </main>
             ${includeSearch ? htmlGUIBody : ''}
             <script>${jsCode}<\/script>
-            ${includeSearch ? '<script src="js/preview-gui.js"></script>' : ''}
+            ${includeSearch ? '<script src="/projects/HTML_Editor/js/preview-gui.js"></script>' : ''}
         </body>
         </html>
     `);
