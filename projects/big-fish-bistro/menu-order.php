@@ -17,11 +17,11 @@ $orderData = json_decode($_POST["orderJSON"], true);
   <img src="images/BFB-logo.jpg" id="logo-header">
   <nav>
     <ul id="header-list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a class="active" href="menu-order.html">Interactive Order</a></li>
-      <li><a href="order.html">Order</a></li>
-      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="/projects/big-fish-bistro/home.html">Home</a></li>
+      <li><a href="/projects/big-fish-bistro/menu.html">Menu</a></li>
+      <li><a class="active" href="/projects/big-fish-bistro/menu-order.html">Interactive Order</a></li>
+      <li><a href="/projects/big-fish-bistro/order.html">Order</a></li>
+      <li><a href="/projects/big-fish-bistro/reviews.html">Reviews</a></li>
     </ul>
   </nav>
 </header>
