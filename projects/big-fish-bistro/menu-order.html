@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Big Fish Bistro Menu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style-custom-sharpth.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style-menu-sharpth.css'>
+    <script src="js/menu-interact.js" defer></script>
+    <script src="js/process-order.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Big Fish Bistro</h1>
+        <img src="images/BFB-logo.jpg" id="logo-header">
+        <nav>
+            <ul id="header-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a class="active" href="menu-order.html">Interactive Order</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="page-layout">
+        <main>
+            <h2>Entrées</h2>
+            <!-- Menu Grid Section (from Activity 9) -->
+            <section class="menu-grid entree-grid">
+                <div class="menu-item" data-category="entree" data-name="Fish and Chips" data-price="12.50">
+                    <img src="images/Fish and Chips.jpg" alt="Fish and Chips">
+                    <h3>Fish and Chips</h3>
+                    <p>Fried hallibut or cod in a seasoned beer batter served with french fries, a side salad, our house tartar sauce, and secret sauce</p>
+                    <p class="price">$12.50</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="entree" data-name="Fish and Fish" data-price="21.00">
+                    <img src="images/Fish and Fish.jpg" alt="Fish and Fish">
+                    <h3>Fish and Fish</h3>
+                    <p>2 servings of fried hallibut or cod in a seasoned beer batter served with a side salad, and our house tartar sauce</p>
+                    <p class="price">$21.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="entree" data-name="Fish and Fish and Fish" data-price="31.50">
+                    <img src="images/Fish and Fish and Fish.jpg" alt="Fish and Fish and Fish">
+                    <h3>Fish and Fish and Fish</h3>
+                    <p>3 servings of fried hallibut or cod in a seasoned beer batter served with a side salad, and our house tartar sauce</p>
+                    <p class="price">$31.50</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="entree" data-name="Chips" data-price="3.00">
+                    <img src="images/Chips.jpg" alt="Chips">
+                    <h3>Chips</h3>
+                    <p>Our homemade french fries, served with our secret sauce</p>
+                    <p class="price">$3.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+            </section>
+
+            <h2>Beverages</h2>
+            <section class="menu-grid beverage-grid">
+                <div class="menu-item" data-category="beverage" data-name="Pickle Water" data-price="2.50">
+                    <img src="images/Pickle Water.jpg" alt="Pickle Water">
+                    <h3>Pickle Water</h3>
+                    <p>The water from our dill pickle bucket, high in salt</p>
+                    <p class="price">$2.50</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="beverage" data-name="Fish Head Cocktail" data-price="7.50">
+                    <img src="images/Fish Head Cocktail.jpg" alt="Fish Head Cocktail">
+                    <h3>Fish Head Cocktail</h3>
+                    <p>Our signature cocktail with an entire head of a cod, and a whole lot of vodka</p>
+                    <p class="price">$7.50</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="beverage" data-name="Surströmming Shake" data-price="3.00">
+                    <img src="images/Surstromming Shake.webp" alt="Surströmming Shake">
+                    <h3>Surströmming Shake</h3>
+                    <p>2 scoops of vanila ice cream and a healthy amount of surströmming (a lightly salted, fermented Baltic Sea herring) </p>
+                    <p class="price">$3.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+            </section>
+
+            <h2>Desserts</h2>
+            <section class="menu-grid dessert-grid">
+                <div class="menu-item" data-category="dessert" data-name="Bean Cake" data-price="5.00">
+                    <img src="images/BeanCake.jpg" alt="Bean Cake">
+                    <h3>Bean Cake</h3>
+                    <p>A delicious slice of strawberry vanilla cake with a handful of bbq beans on top</p>
+                    <p class="price">$5.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="dessert" data-name="Fish and Chips Cake" data-price="10.00">
+                    <img src="images/FishAndChipsCake.webp" alt="Fish and Chips Cake">
+                    <h3>Fish and Chips Cake</h3>
+                    <p>A chocolate cake resembling our famous fish and chips, with a fudge drizzle on top</p>
+                    <p class="price">$10.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+                <div class="menu-item" data-category="dessert" data-name="Fish Ice Cream" data-price="3.00">
+                    <img src="images/FishIceCream.jpg" alt="Fish Ice Cream">
+                    <h3>Fish Ice Cream</h3>
+                    <p>A scoop or our homemade fish flavored ice cream, including our speciality fish chunks mixed in</p>
+                    <p class="price">$3.00</p>
+                    <div class="input-cancel">
+                        <div class="check-it" style="display: none;">✔</div>
+                        <div class="cancel-x" style="display: none;">✖</div>
+                        <input type="number" class="qty-input" min="1" style="display: none;">
+                    </div>
+                </div>
+            </section>
+            <!-- Order Form Section -->
+            
+        </main>
+        <aside class="side-bar">
+            <!-- Live Order Sidebar -->
+            <section class="live-order">
+                <h2>Live Order</h2>
+                <div class="entree-sb">
+                    <h3>Entrées</h3>
+                    <ul id="entree-list"></ul>
+                </div>
+                <div class="dessert-sb">
+                    <h3>Desserts</h3>
+                    <ul id="dessert-list"></ul>
+                </div>
+                <div class="beverage-sb">
+                    <h3>Beverages</h3>
+                    <ul id="beverage-list"></ul>
+                </div>
+                <div class="subtotal-sb">
+                    <p><strong>Current Subtotal:</strong> $<span id="subtotal-span">0.00</span></p>
+                </div>
+            </section>
+        
+            <!-- Placeholder for Receipt (used in Activity 11) -->
+            <section class="receipt-section">
+                <h2>Receipt</h2>
+                <div id="receiptOutput"></div>
+            </section>
+
+            <section class="order-form">
+                <h2>Complete Your Order</h2>
+                <form id="orderForm" method="post" action="menu-order.php">
+                    <fieldset id="info-field">
+                        <legend>Customer Info</legend>
+        
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required>
+        
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>
+                        <br><br>
+                    </fieldset>
+                    <fieldset id="order-field">
+                        <legend>Order Info</legend>
+        
+                        <label>Addons</label>
+                        <br>
+                        <!-- In order for the addons php logic to work, I had to add brackets in the name -->
+                        <input type="checkbox" name="addons[]" value="House Tartar Sauce"> House Tartar Sauce <br>
+                        <input type="checkbox" name="addons[]" value="House Secret Sauce"> House Secret Sauce <br>
+                        <input type="checkbox" name="addons[]" value="Signature Fish Chunks"> Signature Fish Chunks <br>
+
+                        <label>Tip</label>
+                        <div class="order-form-tip">
+                            <label><input type="radio" name="tip" value="10"> 10%</label>
+                            <label><input type="radio" name="tip" value="15"> 15%</label>
+                            <label><input type="radio" name="tip" value="20"> 20%</label>
+                        </div>
+                    </fieldset>
+                    <fieldset id="dining-field">
+                        <legend>Dining Preferences</legend>
+        
+                        <label>Dining Method:</label>
+                        <input type="radio" name="dining" value="Pick-up" required> Pick-up <br>
+                        <input type="radio" name="dining" id = "delivery" value="Delivery"> Delivery <br>
+                        <input type="radio" name="dining" value="Eat-in"> Eat-in <br>
+        
+                        <label for="time">Pick-up/Delivery Time</label>
+                        <input type="time" id ="time" name="time"> <br>
+        
+                        <label for="instructions">Special Instructions</label>
+                        <textarea id="instructions" name="instructions" rows="4" cols="50" placeholder="Let us know if you have any special requests!"></textarea>
+                    </fieldset>
+                    <input type="button" id="previewBtn" value="Preview Reciept">
+                    <input type="submit" value="Complete Order">
+                    <input type="hidden" name="orderJSON" id="orderJSON">
+                </form>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <h3>Website by: Thomas Sharp</h3>
+    </footer>
+</body>

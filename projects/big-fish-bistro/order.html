@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Big Fish Bistro Order</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style-custom-sharpth.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Big Fish Bistro</h1>
+        <img src="images/BFB-logo.jpg" id="logo-header">
+        <nav>
+            <ul id="header-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="menu-order.html">Interactive Order</a></li>
+                <li><a class="active" href="order.html">Order</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="post" action="order.php">
+            <fieldset id="info-field">
+                <legend>Customer Info</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="John Doe" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>
+                <br><br>
+            </fieldset>
+            <fieldset id="order-field">
+                <legend>Order</legend>
+
+                <label for="entree">Entrée</label>
+                <select name="entree" id="entree" required>
+                    <option value="" disabled selected>-- Select Entrée --</option>
+                    <option value="Fish and Chips">#1 Fish and Chips</option>
+                    <option value="Fish and no Chips">#2 Fish and no Chips</option>
+                    <option value="Fish and Fish">#3 Fish and Fish</option>
+                    <option value="Fish and Fish and Fish">#4 Fish and Fish and Fish</option>
+                    <option value="Fish and Clips">#5 Fish and Clips</option>
+                    <option value="Fish and Tips">#6 Fish and Tips</option>
+                    <option value="Chips">#7 Chips</option>
+                    <option value="Chips and Chips">#8 Chips and Chips</option>
+                </select>
+
+                <label for="beverage">Beverage</label>
+                <select name="beverage" id="beverage" required>
+                    <option value="" disabled selected>-- Select Beverage --</option>
+                    <option value="Coke">Coke</option>
+                    <option value="Pepsi">Pepsi</option>
+                    <option value="Dr Pepper">Dr Pepper</option>
+                    <option value="Dr Shasta">Dr Shasta</option>
+                    <option value="Root Beer">Root Beer</option>
+                    <option value="Pickle Water">Pickle Water</option>
+                    <option value="Diet Pickle Water">Diet Pickle Water</option>
+                    <option value="Fish Head Cocktail">Fish Head Cocktail</option>
+                    <option value="Surströmming Shake">Surströmming Shake</option>
+                </select>
+
+                <label for="dessert">Dessert</label>
+                <select name="dessert" id="dessert" required>
+                    <option value="" disabled selected>-- Select Dessert --</option>
+                    <option value="Bean Cake">Bean Cake</option>
+                    <option value="Sausage Cake">Sausage Cake</option>
+                    <option value="Fish and Chips Cake">Fish and Chips Cake</option>
+                    <option value="Fish Ice Cream">Fish Ice Cream</option>
+                </select>
+
+                <label>Addons</label>
+                <br>
+                <!-- In order for the addons php logic to work, I had to add brackets in the name -->
+                <input type="checkbox" name="addons[]" value="House Tartar Sauce"> House Tartar Sauce <br>
+                <input type="checkbox" name="addons[]" value="House Secret Sauce"> House Secret Sauce <br>
+                <input type="checkbox" name="addons[]" value="Signature Fish Chunks"> Signature Fish Chunks <br>
+                
+
+                <label for="total">Total (non-functioning for now)</label>
+                <input type="text" name="total" id="total" placeholder="$0.00" readonly>
+            </fieldset>
+            <fieldset id="dining-field">
+                <legend>Dining Preferences</legend>
+
+                <label>Dining Method:</label>
+                <input type="radio" name="dining" value="Pick-up" required> Pick-up <br>
+                <input type="radio" name="dining" value="Delivery"> Delivery <br>
+                <input type="radio" name="dining" value="Eat-in"> Eat-in <br>
+
+                <label for="time">Pick-up/Delivery Time</label>
+                <input type="time" id ="time" name="time"> <br>
+
+                <label for="instructions">Special Instructions</label>
+                <textarea id="instructions" name="instructions" rows="4" cols="50" placeholder="Let us know if you have any special requests!"></textarea>
+            </fieldset>
+            <input type="submit" value="Complete Order">
+        </form>
+    </main>
+    <footer>
+        <h3>Website by: Thomas Sharp</h3>
+    </footer>
+</body>

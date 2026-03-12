@@ -1,0 +1,346 @@
+body {
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#entree-table {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(253, 236, 236);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#entree-table th {
+    background-color: rgb(253, 236, 236);
+}
+
+th {
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    border-bottom: 4px double rgb(0, 0, 0);
+}
+  
+td {
+    padding: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(244, 250, 254);
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+#beverage-table {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(230, 243, 254);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#beverage-table th {
+    background-color: rgb(230, 243, 254);
+}
+
+#dessert-table {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(242, 255, 240);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#dessert-table th {
+    background-color: rgb(242, 255, 240);
+}
+
+#entree-table tbody tr:hover {
+    color:rgb(150, 25, 25);
+}
+
+#beverage-table tbody tr:hover {
+    color:rgb(25, 44, 150);
+}
+
+#dessert-table tbody tr:hover {
+    color:rgb(25, 150, 25);
+}
+
+.dessert-img {
+    width: 100px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+caption {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+legend {
+    font-weight: bold;
+    color: black;
+}
+  
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav li a:not(.active) {
+    border: 2px solid white;
+    border-radius: 20px;
+    transition:ease;
+    transition-duration: 100ms;
+}
+
+nav li a:hover:not(.active) {
+    background-color: rgb(199, 70, 124);
+    color:white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+  
+nav li a.active {
+    color: white;
+    background-color: rgb(199, 70, 124);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color:rgb(172, 67, 49);
+    font-size: x-large;
+}
+
+#entree{
+    background-color: rgb(253, 236, 236);
+}
+
+#info-field {
+    border-color: rgb(150, 25, 25);
+}
+
+#order-field{ 
+    border-color:rgb(25, 44, 150);
+}
+
+#dining-field {
+    border-color:rgb(25, 150, 25);
+}
+
+option:nth-child(even) {
+    background-color: white;
+}
+
+#beverage {
+    background-color: rgb(230, 243, 254);
+}
+
+#dessert {
+    background-color: rgb(242, 255, 240);
+}
+
+legend {
+    font-size: large;
+}
+
+input[type=tel] {
+    padding: 10px 16px;
+    margin-top: 10px;
+}
+
+button,
+input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: ease 100ms;
+    float: right;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: rgb(199, 70, 124);
+    color:white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* The main container that holds both the hours section and the map section side by side */
+.info-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+} 
+  
+/* The left column (Hours & Delivery info) */ 
+.hours-display {
+    flex: 1;
+    padding: 1rem;
+} 
+  
+/* The right column (Map + controls) */
+.map-display {
+    flex: 2;
+    margin: 20px;
+}
+
+  
+.city-map {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 20px;
+    border: black 5px solid;
+    transition: transform 0.3s ease;
+}
+  
+.city-map:hover {
+    transform: scale(1.02);
+}
+  
+.portland-box {
+    border: 2px solid rgb(150, 25, 25);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(253, 236, 236);
+    border-radius: 10px;
+}
+
+.fresno-box {
+    border: 2px solid rgb(25, 44, 150);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(230, 243, 254);
+    border-radius: 10px;
+}
+
+.seattle-box {
+    border: 2px solid rgb(25, 150, 25);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(242, 255, 240);
+    border-radius: 10px;
+}
+
+/* Styles each radio button and its label inline */
+.map-display label {
+    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+} 
+
+.map-label {
+    text-align: center;
+    font-size: x-large;
+}
+
+#BFF-logo {
+    margin:50px;
+    transform: scale(2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-list {
+    align-items: flex-start;
+}
+
+#logo-header {
+    align-items: flex-end;
+    float:right;
+}
+
+.order-form-tip {
+    display:flex;
+    flex-flow: wrap row;
+    flex-basis: auto;
+}
+
+.order-form-tip label{
+    margin-right: 50px;
+    margin-bottom:10px;
+}
+
+input[type="button"] {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    transition:ease;
+    transition-duration: 100ms;
+    padding:10px 16px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(199, 70, 124);
+    color:white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#name {
+    display:flex;
+    width: 240px;
+}
+
+#instructions {
+    width: 240px;
+}
+
+#phone {
+    width: 225px;
+}

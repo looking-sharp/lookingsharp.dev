@@ -1,0 +1,32 @@
+.map-box {
+    background-color: rgb(240, 240, 240);
+    border-radius: 32px;
+    padding: 2rem;
+    border: 3px rgb(173, 173, 173) solid;
+    max-width: 550px;
+}
+
+.weather-display {
+    margin-top:15px;
+    padding: 0px 20px;
+}
+
+#weather-icon {
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+#temperature {
+    font-size: xx-large;
+}
+
+#weather-stats {
+    padding:20px;
+    margin:auto;
+}
+
+#current-time {
+    margin-top: 0;
+    font-size: large;
+}

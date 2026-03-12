@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Big Fish Bistro Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style-custom-sharpth.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href="styles/weather-map-style.css">
+    <script src="js/weather-time.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Big Fish Bistro</h1>
+        <img src="images/BFB-logo.jpg" id="logo-header">
+        <nav>
+            <ul id="header-list">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="menu-order.html">Interactive Order</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <h2>Welcome to Big Fish Bistro</h2>
+      <h3>You want fish?</h3>
+      <p>The Big Fish Bistro started as a nightmare, what if you could only eat fish? So we decided
+          to make that nightmare a reality. Now at the Big Fish Bistro, you can't ever escape the smell
+          and taste of fish. In our first couple months of opperation, no one arrived to try our food.
+          That was no surprise to us, this place is a nightmare, but for some reason a random social
+          media influencer decided to review us, and now we have 3 locations and a non-insignifigant
+          portion of the fish and chips market in our name. Thanks to you, we can now all fish.
+      </p>
+      <div class="info-container">
+        <div class="hours-display">
+          <h2 id="current-time">Connecting...</h2>
+          <h3>Dine in hours</h3>
+          <ul id="dining-hours">
+            <li>10am - 9pm (M-F)</li>
+            <li>11am - 10pm (Saturday)</li>
+            <li>12pm - 12am (Sunday)</li>
+          </ul>
+          <h3>Delivery hours</h3>
+          <ul id="delivery-hours">
+            <li>11am - 8pm (M-F)</li>
+            <li>12am - 9pm (Saturday)</li>
+            <li>1pm - 11pm (Sunday)</li>
+          </ul>
+          <p>Delivery is free if you show our drivers you devouring a whole fish (head included)</p>
+          
+          <h3>Current Conditions:</h3>
+          <div class="weather-display">
+            <img id="weather-icon" src="#" alt="Weather Icon">
+            <div id="weather-stats">
+              <span id="temperature">72°F</span>
+              <div id="patio-status">Patio is open!</div>
+            </div>
+          </div>
+          <!-- <img src="images/BFB-logo.jpg" alt="Big Fish Bistro Logo" id="BFF-logo">> -->
+        </div>
+            
+        <div class="map-display">
+          <h3>Our Locations</h3>
+
+          <input type="radio" name="city" id="portland" checked>
+          <label for="city-city1">Portland</label>
+            
+          <input type="radio" name="city" id="fresno">
+          <label for="city-city2">Fresno</label>
+            
+          <input type="radio" name="city" id="seattle">
+          <label for="city-city3">Seattle</label>
+            
+          <div class="map-box">
+            <div class="map-label" id="map-address">3435 Fremont St, Portland, OR, 97212-2666</div>
+            <a id="map-link" href="https://www.google.com/maps/d/u/0/edit?mid=1WLUqlnRIkPIcbR88Gc9GS-P-NVbId6I&usp=sharing" target="_blank">
+              <img id="map-image" src="images/City-1.jpg" alt="Map" class="city-map">
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <h3>Website by: Thomas Sharp</h3>
+    </footer>
+</body>
+</html>
