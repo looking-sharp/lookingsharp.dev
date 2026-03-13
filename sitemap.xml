@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lookingsharp.dev/</loc>
+  <lastmod>2026-03-12T21:27:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects</loc>
+  <lastmod>2026-03-13T20:46:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/resume</loc>
+  <lastmod>2026-02-03T22:47:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/event-tracker</loc>
+  <lastmod>2025-12-31T21:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/tic-tac-twist</loc>
+  <lastmod>2025-12-31T21:36:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro</loc>
+  <lastmod>2026-03-13T20:19:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/average-janirotial-job</loc>
+  <lastmod>2025-12-31T21:36:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/smileys-starship</loc>
+  <lastmod>2025-12-31T21:36:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro/home.html</loc>
+  <lastmod>2026-03-12T21:43:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro/menu.html</loc>
+  <lastmod>2026-03-12T21:43:56+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro/menu-order.html</loc>
+  <lastmod>2026-03-12T21:43:56+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro/order.html</loc>
+  <lastmod>2026-03-12T21:43:57+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://lookingsharp.dev/projects/big-fish-bistro/reviews.html</loc>
+  <lastmod>2026-03-12T21:43:57+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
