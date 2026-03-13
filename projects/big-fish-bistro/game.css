@@ -1,5 +1,5 @@
 header {
-    border-bottom: 2px solid #299629;
+    border-bottom: 2px solid rgb(199, 70, 124);
 }
 
 .nav-links a:hover:nth-child(0) {
@@ -15,7 +15,7 @@ header {
 }
 
 main {
-    background-color: #299629;
+    background-color: #ffffff;
 }
 
 footer {
@@ -41,11 +41,11 @@ footer {
 }
 
 .itch-game-area {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(199, 70, 124, 0.75);
 }
 
 .itch-sidebar {
-    background-color: rgba(99, 178, 73, 0.75);
+    background-color: rgba(199, 70, 124, 0.75);
 }
 
 .itch-button {
@@ -58,5 +58,5 @@ footer {
 }
 
 .footer-social {
-    color: #299629;
+    color: rgb(199, 70, 124);
 }
