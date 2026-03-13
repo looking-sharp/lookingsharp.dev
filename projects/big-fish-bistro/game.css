@@ -41,20 +41,22 @@ footer {
 }
 
 .itch-game-area {
-    background-color: rgba(199, 70, 124, 0.75);
+    background-color: rgba(255, 230, 240, 0.75);;
 }
 
 .itch-sidebar {
-    background-color: rgba(199, 70, 124, 0.75);
+    background-color: rgba(255, 230, 240, 0.75);;
 }
 
 .itch-button {
-    background: #4af64a;
-    color: rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(199, 70, 124);
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 .itch-button:hover {
-    background: #299629;
+    background-color: rgb(143, 50, 88);
 }
 
 .footer-social {
